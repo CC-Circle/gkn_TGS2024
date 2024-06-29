@@ -10,17 +10,18 @@ public class changeScen : MonoBehaviour
     {
         
     }
-
+    //殴られた時の関数
     void naguru(){
 
 
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("tutorial");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space)){
+        //もしリターンキーが押されたら関数「naguru」を起動する
+        if(Input.GetKey(KeyCode.Return)){
             naguru();
         }
     }

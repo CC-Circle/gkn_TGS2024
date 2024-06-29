@@ -6,17 +6,17 @@ using UnityEngine.UI;
 
 public class points : MonoBehaviour
 {
-    public int point;
-    public  bool cp;
+    public static int point;
+    public static bool cp;
     // Start is called before the first frame update
     void Start()
     {
         point=0;
-        cp=true;
+        changepoint();
     }
 
     void changepoint(){
-        gameObject.GetComponent<Text>().text = "　　　　　　 " + point +"円";
+        gameObject.GetComponent<Text>().text = "助けた人数; " + point +"人";
     }
 
     // Update is called once per frame
