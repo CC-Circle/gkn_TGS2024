@@ -1,6 +1,8 @@
+//心臓を動かすためのコードです
+//宣言した変数;ookisa,timerise,taiminngu,haato,ok,last,riseok,sinmaok,sinmadametime
+
 using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Rider.Unity.Editor;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
@@ -9,13 +11,13 @@ using UnityEngine.Rendering;
 public class bpm100 : MonoBehaviour
 {
     // Start is called before the first frame update
-     Vector3 ookisa;
-     Vector3 timerise;
-     public static bool taiminngu;
-     public static int haato;
-     bool ok;
-     float last;
-     bool riseok;
+     Vector3 ookisa;//大きさを変更するための一時的なvec3
+     Vector3 timerise;//心マを初期に戻すためのvec3
+     public static bool taiminngu;//心マできるタイミングかどうかのbool
+     public static int haato;//心マできている割合のint
+     bool ok;//心臓が大きくなったり小さくなったりを１回のみにするためのbool
+     float last;//最後に心マした時間を入れるためのfloat
+     bool riseok;//心マを初期に戻していいかどうかのbool   
      public static bool sinmaok;
      float sinmadametime;
     
