@@ -6,7 +6,7 @@ public class SerialReceive : MonoBehaviour
 {
     public SerialHandler serialHandler;
 
-    public static int data;
+    public static int data;//おされてるかどうかのboolとしてのint
     void Start()
     {
         //信号を受信したときに、そのメッセージの処理を行う

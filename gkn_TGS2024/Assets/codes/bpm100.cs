@@ -64,7 +64,7 @@ public class bpm100 : MonoBehaviour
     {
         Debug.Log(SerialReceive.data);
         
-        if (Input.GetKey(KeyCode.Return) && sinmaok || sinmaok && SerialReceive.data==1)
+        if (Input.GetKey(KeyCode.Return) && sinmaok || sinmaok && SerialReceive.data==1)//retirnキーが押されれるor心マされた時sinmaokの時
         {
             sinma();
         }
