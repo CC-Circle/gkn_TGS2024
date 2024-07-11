@@ -25,6 +25,7 @@ public class Lzontyan : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.LeftArrow)&&llive&&kn==dameji.ldie&&Time.realtimeSinceStartup>=dameji.lct+0.1f){
             dameji.ldie++;
+            dameji.taokazu++;
             llive=false;
             lsindekara=Time.realtimeSinceStartup;
             dameji.lct=Time.realtimeSinceStartup;

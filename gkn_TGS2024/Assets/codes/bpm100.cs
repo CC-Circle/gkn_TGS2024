@@ -20,11 +20,13 @@ public class bpm100 : MonoBehaviour
      bool riseok;//心マを初期に戻していいかどうかのbool   
      public static bool sinmaok;
      float sinmadametime;
+     bool sinmafalseok;
     
     void Start()
     {
         Time.timeScale = 5/3f;
         haato=0;
+        sinmafalseok=true;
         ok=true;
         ookisa = transform.localScale; // ローカル変数に格納
             ookisa.x = 0.2f; 
@@ -74,7 +76,7 @@ public class bpm100 : MonoBehaviour
             
             taiminngu=true;
             ok=false;
-            Debug.Log("%100=0");
+            //Debug.Log("%100=0");
             }
            
 
@@ -97,13 +99,13 @@ public class bpm100 : MonoBehaviour
                 transform.localScale = timerise; 
                 riseok=false;
         }
-        if(sinmaok!=true){
-            
+        if(sinmaok!=true&&sinmafalseok){
+            sinmafalseok=false;
             sinmadametime=Time.realtimeSinceStartup;
         }
         if(Time.realtimeSinceStartup-sinmadametime>=10&&sinmaok!=true){
             sinmaok=true;
-           
+           sinmafalseok=true;
         }
     }
 }

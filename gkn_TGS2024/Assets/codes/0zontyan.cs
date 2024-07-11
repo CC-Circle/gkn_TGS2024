@@ -25,6 +25,7 @@ public class zontyan : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.UpArrow)&&live&&kn==dameji.mdie&&Time.realtimeSinceStartup>=dameji.mct+0.1f){
             dameji.mdie++;
+            dameji.taokazu++;
             live=false;
             sindekara=Time.realtimeSinceStartup;
             dameji.mct=Time.realtimeSinceStartup;

@@ -20,7 +20,7 @@ public class batu : MonoBehaviour
             transform.position=ookisa;//移動後のugokuを代入
         }else{
             ookisa=this.transform.position;//ugokuに現在の位置を代入
-            ookisa.x=-8.39f;//移動を追加
+            ookisa.x=10000.0f;//移動を追加
             transform.position=ookisa;//移動後のugokuを代入
         }
     }

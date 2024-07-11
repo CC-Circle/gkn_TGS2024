@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - dameji
     - zontyan
     Assembly-CSharp.dll:
+    - ActivateAllDisplays
     - Lzontyan
     - Rzontyan
     - batu
@@ -16,10 +17,13 @@ ScriptsOnlyBuild:
     - debbug
     - jikan
     - owarisc
+    - owataozon
+    - owaukekazu
     - points
     - ryurnaguru
     - sinechange2
     - spown
+    - spownpeople
     - tyulnaguru
     - tyumnaguru
     - tyutextchange1
@@ -77,19 +81,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2784}
     - Class: 114
       Script: {instanceID: 3706}
     - Class: 114
-      Script: {instanceID: 4646}
+      Script: {instanceID: 4272}
+    - Class: 114
+      Script: {instanceID: 4648}
     - Class: 114
       Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 7008}
+      Script: {instanceID: 6466}
     - Class: 114
-      Script: {instanceID: 7624}
+      Script: {instanceID: 6918}
+    - Class: 114
+      Script: {instanceID: 7014}
+    - Class: 114
+      Script: {instanceID: 7630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -144,13 +154,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2784}
+    - Class: 114
+      Script: {instanceID: 4272}
     - Class: 114
       Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 6462}
+      Script: {instanceID: 6466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -195,13 +207,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2586}
+    - Class: 114
+      Script: {instanceID: 2784}
+    - Class: 114
+      Script: {instanceID: 4272}
+    - Class: 114
+      Script: {instanceID: 4644}
     - Class: 114
       Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 5902}
     - Class: 114
-      Script: {instanceID: 23332}
+      Script: {instanceID: 6012}
+    - Class: 114
+      Script: {instanceID: 6392}
+    - Class: 114
+      Script: {instanceID: 6466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -209,6 +231,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -254,27 +280,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2784}
     - Class: 114
       Script: {instanceID: 3706}
     - Class: 114
       Script: {instanceID: 3708}
     - Class: 114
-      Script: {instanceID: 4274}
+      Script: {instanceID: 4272}
     - Class: 114
-      Script: {instanceID: 4646}
+      Script: {instanceID: 4644}
+    - Class: 114
+      Script: {instanceID: 4648}
     - Class: 114
       Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 6242}
+      Script: {instanceID: 6244}
     - Class: 114
-      Script: {instanceID: 6462}
+      Script: {instanceID: 6466}
     - Class: 114
-      Script: {instanceID: 7008}
+      Script: {instanceID: 7014}
     - Class: 114
-      Script: {instanceID: 7328}
+      Script: {instanceID: 7334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -329,13 +357,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2784}
+    - Class: 114
+      Script: {instanceID: 4272}
     - Class: 114
       Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 6462}
+      Script: {instanceID: 6466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -386,17 +416,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2784}
     - Class: 114
       Script: {instanceID: 3142}
     - Class: 114
       Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3854}
+    - Class: 114
+      Script: {instanceID: 4272}
     - Class: 114
       Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 7146}
+      Script: {instanceID: 6466}
+    - Class: 114
+      Script: {instanceID: 7152}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -556,6 +590,12 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
+      Hash: b20dcd0b0af8a5be4c8e98e81773711e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: owataozon
+  - hash:
+      serializedVersion: 2
       Hash: 52db48e3be0a2b4f8b06f918fd1ebfbc
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -638,12 +678,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
-  - hash:
-      serializedVersion: 2
-      Hash: 960abc3f3bf5a9272b693edb1b1f155d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: sirei
   - hash:
       serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
@@ -802,12 +836,6 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: ae09e0147f2827871991dff71f540d84
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: taima
-  - hash:
-      serializedVersion: 2
       Hash: 552dca338f20933ce362ebbe559a6aa6
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -914,6 +942,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3d3b9583c5f3d3f02890d3ffc2f9ad06
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: spownpeople
   - hash:
       serializedVersion: 2
       Hash: d1e4f75aa128dee8a0ad41e4d510a0af
@@ -1084,6 +1118,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4027e3bf01754da9cd9d361ff8c8956a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: owaukekazu
+  - hash:
+      serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1154,6 +1194,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 706d76fb0d08e57fe1bdd4813a5c4ab3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: owarisc
   - hash:
       serializedVersion: 2
       Hash: 4878e735441f4041539853759559c86f
@@ -1250,6 +1296,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 949a1920d0559dd5f8c86821c64a3d35
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ActivateAllDisplays
   - hash:
       serializedVersion: 2
       Hash: 67272c9c30c50b68ef1ce72ac0191c57
@@ -1364,12 +1416,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 706d76fb0d08e57fe1bdd4813a5c4ab3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: owarisc
   platform: 2
   scenePathNames:
   - Assets/Scenes/Title.unity
