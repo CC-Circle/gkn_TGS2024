@@ -10,6 +10,7 @@ public class dameji : MonoBehaviour
     bool okok;
     public static int ldie,mdie,rdie;
     public static float lct,mct,rct;
+    public static int taokazu ,ukekazu;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,8 @@ public class dameji : MonoBehaviour
         ldie=1;
         mdie=1;
         rdie=1;
+        taokazu=0;
+        ukekazu=0;
     }
 
     // Update is called once per frame
@@ -32,6 +35,7 @@ public class dameji : MonoBehaviour
             ookisa.x=1000;//移動を追加
             transform.position=ookisa;//移動後のugokuを代入
             bpm100.sinmaok=false;
+            ukekazu++;
             if(okok){
                 n=0;
                 okok=false;
@@ -43,6 +47,7 @@ public class dameji : MonoBehaviour
             ookisa.x=10000000;
             transform.position=ookisa;//移動後のugokuを代入
             damejiok=false;
+            
             okok=true;
         }
     }

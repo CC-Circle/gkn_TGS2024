@@ -24,6 +24,7 @@ public class Rzontyan : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.RightArrow)&&rlive&&kn==dameji.rdie&&Time.realtimeSinceStartup>=dameji.rct+0.1f){
             dameji.rdie++;
+            dameji.taokazu++;
             rlive=false;
             rsindekara=Time.realtimeSinceStartup;
             dameji.rct=Time.realtimeSinceStartup;
