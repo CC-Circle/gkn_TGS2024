@@ -8,6 +8,8 @@ public class changeScen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        points.point=0;
+        points.cp=true;
         
     }
     //殴られた時の関数
