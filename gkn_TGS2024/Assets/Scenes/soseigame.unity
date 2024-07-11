@@ -1458,6 +1458,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 985776728330818146, guid: b87fb9bea8df740b69acc6c06df31a03, type: 3}
+      propertyPath: baudRate
+      value: 9600
+      objectReference: {fileID: 0}
     - target: {fileID: 4624130124430952516, guid: b87fb9bea8df740b69acc6c06df31a03, type: 3}
       propertyPath: m_LocalPosition.x
       value: 649
